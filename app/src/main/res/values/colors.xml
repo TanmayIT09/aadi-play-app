@@ -9,5 +9,9 @@
     <color name="emotion_sad">#90CAF9</color>
     <color name="emotion_angry">#EF9A9A</color>
     <color name="emotion_sleepy">#B39DDB</color>
+    <color name="voice">#A7D8DE</color>
+    <color name="numbers">#B8E986</color>
+    <color name="tune">#D7C6FF</color>
+    <color name="picture">#F7C59F</color>
     <color name="white">#FFFFFF</color>
 </resources>

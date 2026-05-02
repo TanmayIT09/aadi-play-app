@@ -1,40 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/screen_bg"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:padding="24dp">
+    android:background="@color/screen_bg">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Hi 👋"
-        android:textColor="@color/text_dark"
-        android:textSize="38sp"
-        android:textStyle="bold" />
+        android:orientation="vertical"
+        android:padding="24dp">
 
-    <Button
-        android:id="@+id/btnRoutine"
-        style="@style/BigButton"
-        android:layout_marginTop="40dp"
-        android:backgroundTint="@color/routine"
-        android:text="✅ My Routine" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hi Aadi 👋"
+            android:textColor="@color/text_dark"
+            android:textSize="38sp"
+            android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/btnEmotion"
-        style="@style/BigButton"
-        android:layout_marginTop="18dp"
-        android:backgroundTint="@color/emotion"
-        android:text="😊 How I Feel" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Welcome Aadi, this is your space to explore. All the best!"
+            android:textColor="@color/text_dark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/btnReward"
-        style="@style/BigButton"
-        android:layout_marginTop="18dp"
-        android:backgroundTint="@color/reward"
-        android:text="⭐ My Stars" />
+        <Button
+            android:id="@+id/btnSpeakHome"
+            style="@style/SpeakButton"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/voice"
+            android:text="🔊 Listen" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/btnTune"
+            style="@style/SpeakButton"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/tune"
+            android:text="🎵 Sa Re Ga Ma" />
+
+        <Button
+            android:id="@+id/btnRoutine"
+            style="@style/BigButton"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="@color/routine"
+            android:text="✅ My Routine" />
+
+        <Button
+            android:id="@+id/btnEmotion"
+            style="@style/BigButton"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/emotion"
+            android:text="😊 Feelings" />
+
+        <Button
+            android:id="@+id/btnNumbers"
+            style="@style/BigButton"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/numbers"
+            android:text="🔢 Numbers" />
+
+        <Button
+            android:id="@+id/btnPictureTalk"
+            style="@style/BigButton"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/picture"
+            android:text="🖼️ Picture Talk" />
+
+        <Button
+            android:id="@+id/btnReward"
+            style="@style/BigButton"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/reward"
+            android:text="⭐ My Stars" />
+
+    </LinearLayout>
+</ScrollView>

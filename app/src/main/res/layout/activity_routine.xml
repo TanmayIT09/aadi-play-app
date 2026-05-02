@@ -8,22 +8,65 @@
     android:padding="24dp">
 
     <TextView
+        android:id="@+id/txtRoutineStars"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="⭐ 0"
+        android:textColor="@color/text_dark"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtRoutine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:background="@drawable/card_background"
         android:gravity="center"
-        android:lineSpacingExtra="10dp"
         android:padding="28dp"
-        android:text="🪥&#10;&#10;FIRST: Brush Teeth&#10;THEN: Watch Cartoon"
+        android:text="🌞&#10;Wake up"
+        android:textColor="@color/text_dark"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtRoutineQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="What comes next?"
         android:textColor="@color/text_dark"
         android:textSize="30sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btnDone"
-        style="@style/BigButton"
-        android:layout_marginTop="36dp"
-        android:backgroundTint="@color/reward"
-        android:text="DONE ⭐" />
+        android:id="@+id/btnSpeakRoutine"
+        style="@style/SpeakButton"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/voice"
+        android:text="🔊 Say it" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRoutineOptionOne"
+            style="@style/BigButton"
+            android:backgroundTint="@color/routine"
+            android:text="Option 1" />
+
+        <Button
+            android:id="@+id/btnRoutineOptionTwo"
+            style="@style/BigButton"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/reward"
+            android:text="Option 2" />
+
+    </LinearLayout>
 
 </LinearLayout>

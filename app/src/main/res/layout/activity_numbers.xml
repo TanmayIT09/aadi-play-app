@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtNumberStars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="⭐ 0"
+        android:textColor="@color/text_dark"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtNumberQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/card_background"
+        android:gravity="center"
+        android:padding="32dp"
+        android:text="10   ?   20"
+        android:textColor="@color/text_dark"
+        android:textSize="46sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSpeakNumbers"
+        style="@style/SpeakButton"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="@color/voice"
+        android:text="🔊 Say numbers" />
+
+    <Button
+        android:id="@+id/btnGreater"
+        style="@style/BigButton"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/numbers"
+        android:text="&gt;  Greater than" />
+
+    <Button
+        android:id="@+id/btnEqual"
+        style="@style/BigButton"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/reward"
+        android:text="=  Equal to" />
+
+    <Button
+        android:id="@+id/btnLess"
+        style="@style/BigButton"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/routine"
+        android:text="&lt;  Less than" />
+
+</LinearLayout>

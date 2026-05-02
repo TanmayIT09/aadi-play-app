@@ -11,6 +11,14 @@
             android:exported="false" />
 
         <activity
+            android:name=".PictureTalkActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".NumbersActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".EmotionActivity"
             android:exported="false" />
 
