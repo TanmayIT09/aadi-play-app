@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="How do you feel?"
+        android:textColor="@color/text_dark"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnHappy"
+        style="@style/BigButton"
+        android:layout_marginTop="34dp"
+        android:backgroundTint="@color/emotion_happy"
+        android:text="😊 Happy" />
+
+    <Button
+        android:id="@+id/btnSad"
+        style="@style/BigButton"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/emotion_sad"
+        android:text="😢 Sad" />
+
+    <Button
+        android:id="@+id/btnAngry"
+        style="@style/BigButton"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/emotion_angry"
+        android:text="😡 Angry" />
+
+    <Button
+        android:id="@+id/btnSleepy"
+        style="@style/BigButton"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/emotion_sleepy"
+        android:text="😴 Sleepy" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hi 👋"
+        android:textColor="@color/text_dark"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRoutine"
+        style="@style/BigButton"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/routine"
+        android:text="✅ My Routine" />
+
+    <Button
+        android:id="@+id/btnEmotion"
+        style="@style/BigButton"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/emotion"
+        android:text="😊 How I Feel" />
+
+    <Button
+        android:id="@+id/btnReward"
+        style="@style/BigButton"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/reward"
+        android:text="⭐ My Stars" />
+
+</LinearLayout>

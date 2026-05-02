@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background"
+        android:gravity="center"
+        android:lineSpacingExtra="10dp"
+        android:padding="28dp"
+        android:text="🪥&#10;&#10;FIRST: Brush Teeth&#10;THEN: Watch Cartoon"
+        android:textColor="@color/text_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDone"
+        style="@style/BigButton"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/reward"
+        android:text="DONE ⭐" />
+
+</LinearLayout>

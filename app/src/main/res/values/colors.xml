@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_bg">#FFF8E7</color>
+    <color name="text_dark">#243447</color>
+    <color name="routine">#FFC857</color>
+    <color name="emotion">#FF9EB5</color>
+    <color name="reward">#95D5B2</color>
+    <color name="emotion_happy">#FFE082</color>
+    <color name="emotion_sad">#90CAF9</color>
+    <color name="emotion_angry">#EF9A9A</color>
+    <color name="emotion_sleepy">#B39DDB</color>
+    <color name="white">#FFFFFF</color>
+</resources>
